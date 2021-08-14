@@ -26,7 +26,7 @@ def check_price():
     print(title.strip())
     print(converted_price)
     
-    if(converted_price < 1500):
+    if(converted_price < 1500): # change price to reflect the disired sale price
         send_mail()
    
 
